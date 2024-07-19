@@ -36,7 +36,7 @@ public class BinaryTreeHeight{
             int leftHeight = height(root.left);
             int rightHeight =  height(root.right);
 
-            int myHeight = Math.max(leftHeight,rightHeight + 1);
+            int myHeight = Math.max(leftHeight,rightHeight) + 1;
 
             return myHeight;
 
