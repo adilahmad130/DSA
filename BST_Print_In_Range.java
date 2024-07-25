@@ -76,7 +76,7 @@ public class BST_Print_In_Range{
         int x = sc.nextInt();
         System.out.println("Enter The Upper Limit: ");
         int y = sc.nextInt();
-        System.out.println("Nodes In Range" + x + "and" + y + ": ");
+        System.out.println("Nodes In Range " + x + " and " + y + ": ");
         printInRange(root,x,y);
     }     
 }
