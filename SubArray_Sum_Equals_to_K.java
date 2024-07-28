@@ -20,6 +20,10 @@ public class SubArray_Sum_Equals_to_K {
             if(map.containsKey(sum)){
                 map.put(sum,map.get(sum) + 1);
             }
+
+            else{
+                map.put(sum,1);    
+            }
         }
 
         System.out.println(ans);
